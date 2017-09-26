@@ -75,6 +75,10 @@ public class Pedido {
 	public void setData(Date data) {
 		this.data = data;
 	}
+	
+	public void setValorTotal(Double valorTotal) {
+		this.valorTotal = valorTotal;
+	}
 
 
 	public Double getValorTotal() {
